@@ -1,5 +1,7 @@
 # FinChainPay
 
+[![Deployed on Vercel](https://vercel.com/button)](https://vercel.com)
+
 FinChainPay is a modern digital payments platform built with Next.js, offering seamless payment solutions for businesses and individuals.
 
 ## Features
