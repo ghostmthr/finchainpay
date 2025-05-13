@@ -1,0 +1,417 @@
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.heroSection {
+  background-color: #f8f9fa;
+  margin-top: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.heroSubtitle {
+  font-size: 28px;
+  color: #008140;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.heroTitle {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.heroText {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 14px 0 33px;
+}
+
+.heroImage {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Partners Section */
+.partnersSection {
+  padding: 80px 0;
+  background: #ffffff;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.partnersHeader {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+}
+
+.partnersGrid {
+  max-width: 1200px;
+  margin: 32px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+  align-items: center;
+  padding: 32px;
+}
+
+.partnerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+
+.partnerLogo:hover {
+  transform: scale(1.05);
+}
+
+/* How It Works Section */
+.howItWorksSection {
+  background-color: #f8f9fa;  
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 24px;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: auto;
+}
+
+.step {
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 24px;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  position: relative;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  will-change: transform, opacity;
+  transform-style: preserve-3d;
+}
+
+.phoneImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.stepText {
+  padding: 20px;
+  position: relative;
+}
+
+.stepText h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.stepText p {
+  font-size: 20px;
+  line-height: 1.5;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+/* Intro Section */
+.introSection {
+  margin-top: 0;
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.introContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 64px;
+}
+
+.introTitle {
+  font-size: 38px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.introText {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 14px 0 33px;
+}
+
+.introList {
+  list-style-type: disc;
+  margin-left: 24px;
+  margin: 14px 0 33px;
+}
+
+.introList li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 4px 0 0 34px;
+}
+
+.introImage {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryColor {
+  color: #008140;
+}
+
+.secondaryColor {
+  color: #008cff;
+}
+
+.tertiaryColor {
+  color: #9579d3;
+}
+
+/* Benefits Section */
+.benefitSection {
+  background-color: #f8f9fa;
+}
+
+.benefitHeader {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+}
+
+.benefitContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefitGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.benefitCard {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefitCard:hover {
+  transform: translateY(-5px);
+}
+
+.benefitTitle {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.benefitText {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Services Section */
+.serviceSection {
+  background-color: #ffffff;
+}
+
+.serviceHeader {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 48px;
+}
+
+.serviceContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 100px auto;
+}
+
+.serviceCard {
+  background: #f8f9fa;
+  padding: 32px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.serviceCard img {
+  width: 200px;
+  height: 200px;
+  margin-top: -80px;
+  margin-bottom: 16px;
+  object-fit: contain;
+}
+
+.serviceTitle {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.serviceText {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 14px 0 33px;
+}
+
+/* Color Utilities */
+.greenText {
+  color: #008140;
+}
+
+.blueText {
+  color: #008cff;
+}
+
+.purpleText {
+  color: #9579d3;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.bgPrimary {
+  background-color: #008140;
+}
+
+.bgSecondary {
+  background-color: #008cff;
+}
+
+.bgTertiary {
+  background-color: #9579d3;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introContent {
+    flex-direction: column;
+  }
+
+  .benefitGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .phoneImage img {
+    height: 400px;
+  }
+
+  .step {
+    padding: 24px;
+  }
+}
+
+/* Add scroll sections for visual debugging */
+.scrollMarkers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.scrollSection {
+  height: 33.33%;
+  background: #000;
+  border-bottom: 1px solid #fff;
+}

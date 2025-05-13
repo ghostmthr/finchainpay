@@ -1,0 +1,295 @@
+.companyPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.heroSection {
+  background-color: #f8f9fa;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.heroTitle {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.heroText {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 14px 0 33px;
+}
+
+.heroImage {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Intro Section */
+.introSection {
+  background-color: #ffffff;
+  padding: 64px 32px;
+}
+
+.introContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 64px;
+}
+
+.introTitle {
+  font-size: 38px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.introText {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 14px 0 33px;
+}
+
+.introList {
+  list-style-type: disc;
+  margin-left: 24px;
+  margin: 14px 0 33px;
+}
+
+.introList li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 4px 0 0 34px;
+}
+
+.introImage {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Benefits Section */
+.benefitSection {
+  background-color: #f8f9fa;
+}
+
+.benefitHeader {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+}
+
+.benefitContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefitGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.benefitCard {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefitCard:hover {
+  transform: translateY(-5px);
+}
+
+.benefitTitle {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.benefitText {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.valuesSection {
+  background-color: #f8f9fa;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  max-width: 1200px;
+  margin: 32px auto;
+}
+
+.leadershipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1200px;
+  margin: 32px auto;
+}
+
+.valueCard,
+.statCard,
+.leaderCard {
+  padding: 32px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Team Section */
+.teamSection {
+  padding: 64px 32px;
+  background-color: #f8f9fa;
+}
+
+.teamHeader {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teamCard {
+  text-align: center;
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teamImage {
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.teamName {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.teamTitle {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.teamHistory {
+  margin: 16px 0;
+  width: 100%;
+  text-align: left;
+}
+
+.teamHistory p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #666;
+}
+
+.separator {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid hsla(0, 0%, 78%, .5);
+  margin: 8px 0;
+}
+
+.teamCredentials {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.4;
+}
+
+.teamCredentials img {
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introContent {
+    flex-direction: column;
+  }
+
+  .benefitGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .partnersGrid,
+  .benefitGrid,
+  .serviceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard img {
+    margin-top: -60px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .benefitHeader {
+    font-size: 38px;
+  }
+}

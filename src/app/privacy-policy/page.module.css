@@ -1,0 +1,40 @@
+.section {
+  padding: 0;;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 32px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sectionTitle {
+  font-size: 38px;
+  margin: 12px 0;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 20px;  
+}
+
+.lastUpdated {
+  margin-top: 48px;
+  font-size: 16px;
+}
